@@ -9,7 +9,7 @@ RPC（Retail Product Checkout）训练集拥有超过8w张图片，图片是许�
 ## 模型
 本次选用的是yolov5作为目标检测的模型。YOLOv5是一个在COCO数据集上预训练的物体检测架构和模型系列，它代表了Ultralytics对未来视觉AI方法的开源研究，其中包含了经过数千小时的研究和开发而形成的经验教训和最佳实践。  
 使用yolov5s版本可以使我们的训练速度较快的同时还保持一个相对不错的准确率。下图是yolov5s的网络结构。
-![72AD63231AD3412D50C62F63407C574D](https://user-images.githubusercontent.com/52622948/186953738-1518ca86-5f50-4319-9f3e-74f29daa3c0e.png)
+![image](https://user-images.githubusercontent.com/52622948/186965353-977aebb4-e23e-479f-8776-af9e014e463c.png)
 ## 模型训练
 由于训练集中图片的形式和训练集和验证集差异过大，因此将原来的测试集切分为作为训练集和验证集，原来的验证集作为测试集。  
 在训练了仅20个epoch后，在验证集上mAP0.5就达到的了0.99，mAP0.5:0.95达到了0.86。  
@@ -58,4 +58,9 @@ if __name__ == "__main__":
 ```
 通过访问端口post一个图片，可以返回图片中检测到的商品种类，对应的数量，以及单价。
 ## 算法流程图
+### yolov5 part
+![72AD63231AD3412D50C62F63407C574D](https://user-images.githubusercontent.com/52622948/186953738-1518ca86-5f50-4319-9f3e-74f29daa3c0e.png)
+
+### 后端 part
+![image](https://user-images.githubusercontent.com/52622948/186965150-84a66b3b-6d6a-4780-9955-3989170ae23c.png)
 
