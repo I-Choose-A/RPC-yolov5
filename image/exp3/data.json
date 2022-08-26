@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "45_instant_noodles",
+            "name": "合味道海鲜风味84g",
+            "num": 2,
+            "price": 37.73
+        },
+        {
+            "id": "56_dessert",
+            "name": "庆联凤梨味夹心饼63g",
+            "num": 2,
+            "price": 49.38
+        },
+        {
+            "id": "70_dessert",
+            "name": "mini奥利奥55g",
+            "num": 2,
+            "price": 2.0
+        },
+        {
+            "id": "75_drink",
+            "name": "百事可乐600ml",
+            "num": 2,
+            "price": 2.15
+        },
+        {
+            "id": "100_milk",
+            "name": "活力宝动力源105ml",
+            "num": 1,
+            "price": 28.91
+        }
+    ]
+}
